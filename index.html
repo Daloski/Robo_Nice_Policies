@@ -5,49 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Privacidade - Robô Nice</title>
     <style>
-       body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 2em;
-    background-color: #f4f5e5;
-    color: #333;
-}
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 2em;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+         body {
+        font-family: sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f5e5;
+        color: #333;
+    }
+ .container {
+        max-width: 800px;
+        margin: 0 auto;
+        /* Cor de fundo do container, que agora inclui o cabeçalho */
+        background-color: #65735f;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
 h1, h2 {
     color: #64735f;
 }
-      .header-page {
-    /* Cor de fundo igual à imagem de objetivo */
-    background-color: #65735f;
-    color: #fff;
-    padding: 2em;
-    /* Centraliza o conteúdo (a div.header-content) */
-    display: flex;
-    justify-content: center;
-}
-.header-page img {
-    /* Aumenta a altura do logotipo para 80px */
-    height: 80px;
-    margin: 0 10px;
-}
-.header-page h1 {
-    color: #fff;
-    margin: 0;
-    /* Aumenta o tamanho da fonte */
-    font-size: 2.5em;
-    /* Altera a fonte para uma com serifa, como na imagem */
-    font-family: 'Georgia', serif; 
-    /* Coloca o texto em maiúsculas */
-    text-transform: uppercase;
-}
+   .header-page {
+        /* Usa flexbox para centralizar o conteúdo */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Alinha os itens em uma coluna (um em cima do outro) */
+        flex-direction: column; 
+        padding: 2em;
+        text-align: center;
+    }
+    
+    .header-page img {
+        height: 100px;
+        margin-bottom: 1em; /* Adiciona espaço abaixo da imagem */
+    }
+    
+    .header-page h1 {
+        color: #fff;
+        margin: 0;
+        font-size: 2.5em;
+        font-family: 'Georgia', serif;
+        text-transform: uppercase;
+    }
+
+    .main-content {
+        background-color: #fff;
+        padding: 2em;
+    }
+
+    .main-content h1, .main-content h2 {
+        color: #64735f;
+    }
         .header-content {
     /* Define a largura máxima do conteúdo do cabeçalho para
        que ele seja igual à parte branca do texto */
@@ -79,11 +88,11 @@ h1, h2 {
 <body>
     <div class="container">
         <header class="header-page">
-            <img src="nice_logo196.png" alt="Logotipo do Robô Nice">
+            <img src="nova_logo.png" alt="Logotipo do Robô Nice">
             <h1>Robô Nice</h1>
         </header>
-    <div class="container">
-        <h1>Política de Privacidade para o "Robô Nice"</h1>
+  <div class="main-content">
+       <h1>Política de Privacidade para o "Robô Nice"</h1>
         <p><strong>Última atualização:</strong> 15 de agosto de 2025</p>
 
         <h2>1. Coleta e Uso de Informações</h2>
