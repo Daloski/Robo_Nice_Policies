@@ -86,47 +86,214 @@ h1, h2 {
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="header-page">
-            <img src="nice_logo196.png" alt="Logotipo do Robô Nice">
-            <h1>Robô Nice</h1>
-        </header>
-  <div class="main-content">
-       <h1>Política de Privacidade para o "Robô Nice"</h1>
-        <p><strong>Última atualização:</strong> 15 de agosto de 2025</p>
+  <div class="container">
+    <header class="header-page">
+      <img src="nice_logo196.png" alt="Logotipo do Robô Nice">
+      <h1>Robô Nice</h1>
+    </header>
 
-        <h2>1. Coleta e Uso de Informações</h2>
-        <p>
-            A extensão "Robô Nice" foi projetada com a sua privacidade como prioridade máxima. Nós <strong>não coletamos, armazenamos, compartilhamos ou vendemos</strong> qualquer tipo de dado pessoal ou de navegação do usuário.
-        </p>
-        <ul>
-            <li><strong>Dados Pessoais:</strong> A extensão não solicita, acessa ou armazena informações pessoais como nome, e-mail, ou qualquer outro dado de identificação.</li>
-            <li><strong>Dados de Navegação:</strong> A extensão não rastreia seu histórico de navegação ou suas atividades em outros sites.</li>
-        </ul>
+    <div class="main-content">
+      <h1>Política de Privacidade do Robô Nice</h1>
+      <p><strong>Última atualização:</strong> 2 de setembro de 2026.</p>
 
-        <h2>2. Armazenamento de Dados</h2>
-        <p>
-            Todas as configurações e regras que você cria na extensão "Robô Nice" são salvas exclusivamente no armazenamento local do seu navegador Google Chrome (usando a API <code>chrome.storage.local</code>).
-        </p>
-        <p>
-            Isso significa que suas configurações ficam armazenadas <strong>apenas no seu computador</strong> e não são sincronizadas com sua Conta Google nem enviadas para nenhum servidor externo. Se você desinstalar a extensão, esses dados serão permanentemente removidos.
-        </p>
+      <h2>1. Escopo desta Política</h2>
+      <p>
+        Esta Política de Privacidade descreve como a extensão Robô Nice acessa,
+        utiliza, transmite e armazena informações durante a automação de tarefas
+        nos sistemas PROJUDI e WhatsApp Web.
+      </p>
+      <p>
+        O desenvolvedor do Robô Nice <strong>não recebe, armazena, vende ou utiliza
+        dados dos usuários em servidores próprios</strong>. Entretanto, para executar
+        suas funções, a extensão processa localmente informações exibidas nas páginas
+        autorizadas pelo usuário.
+      </p>
 
-        <h2>3. Permissões da Extensão</h2>
-        <p>
-            A extensão solicita apenas as permissões estritamente necessárias para seu funcionamento no sistema PROJUDI. Essas permissões são usadas para:
-        </p>
-        <ul>
-            <li><strong>activeTab e scripting:</strong> Para poder interagir com a página do PROJUDI, preenchendo formulários e clicando em botões.</li>
-            <li><strong>tabs:</strong> Para abrir os processos em novas abas.</li>
-            <li><strong>sidePanel:</strong> Para exibir a interface da extensão.</li>
-            <li><strong>storage:</strong> Para salvar suas configurações localmente no seu navegador.</li>
-        </ul>
+      <h2>2. Informações Processadas</h2>
+      <p>
+        Conforme o modo de operação utilizado, a extensão pode acessar e processar:
+      </p>
+      <ul>
+        <li>
+          <strong>Informações processuais:</strong> número do processo, conteúdo
+          exibido nas páginas do PROJUDI, campos de formulários e documentos em PDF,
+          incluindo a contrafé gerada pelo sistema.
+        </li>
+        <li>
+          <strong>Informações de contato:</strong> número de telefone disponibilizado
+          pelo PROJUDI no link de envio pelo WhatsApp.
+        </li>
+        <li>
+          <strong>Conteúdo do WhatsApp Web:</strong> informações estritamente
+          necessárias para localizar o destinatário, enviar o documento e, quando
+          solicitado pelo usuário, capturar a área visível da página como comprovante.
+        </li>
+        <li>
+          <strong>Dados técnicos de navegação:</strong> endereço, título e estado das
+          abas necessários para abrir, identificar, alternar e fechar as páginas
+          utilizadas pela automação.
+        </li>
+      </ul>
+      <p>
+        A extensão não monitora o histórico geral de navegação, não cria perfis de
+        comportamento e não utiliza informações de sites não relacionados às suas
+        funcionalidades.
+      </p>
+      <p>
+        As informações processuais são utilizadas conforme apresentadas pelo PROJUDI.
+        O Robô Nice não realiza uma verificação externa ou independente da veracidade,
+        validade ou atualidade desses dados.
+      </p>
 
-        <h2>4. Contato:</h2>
-        <p>
-            Se você tiver qualquer dúvida sobre esta política de privacidade, sinta-se à vontade para entrar em contato pelo e-mail: <strong>daloski@gmail.com</strong>.
-        </p>
+      <h2>3. Finalidades do Tratamento</h2>
+      <p>As informações são utilizadas exclusivamente para:</p>
+      <ul>
+        <li>automatizar as operações selecionadas pelo usuário no PROJUDI;</li>
+        <li>abrir e organizar processos em abas;</li>
+        <li>capturar o documento disponibilizado pelo PROJUDI;</li>
+        <li>
+          encaminhar o documento ao número indicado pelo PROJUDI por meio da conta
+          autenticada no WhatsApp Web;
+        </li>
+        <li>exibir o andamento e o resultado da operação;</li>
+        <li>
+          gerar relatórios e prints de comprovação quando essas opções forem
+          expressamente ativadas pelo usuário.
+        </li>
+      </ul>
+
+      <h2>4. Armazenamento e Retenção</h2>
+      <p>
+        As configurações e regras do Robô Nice são armazenadas localmente no navegador,
+        por meio da API <code>chrome.storage.local</code>. Isso inclui as preferências
+        do modo EnvWpp, o atraso configurado para o print e o registro de que o aviso
+        inicial sobre a captura já foi exibido.
+      </p>
+      <p>
+        Os documentos em PDF capturados para envio não são armazenados de forma
+        permanente pela extensão. Eles são mantidos temporariamente em memória durante
+        a operação, e a referência ao seu conteúdo é descartada após a tentativa de envio.
+      </p>
+      <p>
+        Quando habilitados, relatórios e prints são salvos como arquivos locais por meio
+        do mecanismo de download do navegador. Esses arquivos permanecem no computador
+        até que sejam excluídos pelo próprio usuário.
+      </p>
+      <p>
+        A desinstalação da extensão remove as configurações mantidas em
+        <code>chrome.storage.local</code>, mas não remove arquivos anteriormente
+        baixados nem mensagens e documentos já enviados pelo WhatsApp.
+      </p>
+
+      <h2>5. Transmissão e Compartilhamento</h2>
+      <p>
+        No modo de Envio de WhatsApp, o documento processual e o número do destinatário
+        são utilizados no WhatsApp Web para realizar o envio solicitado pelo usuário.
+        Consequentemente, o conteúdo enviado será processado pelo serviço WhatsApp e
+        recebido pelo destinatário.
+      </p>
+      <p>
+        O tratamento e a retenção da mensagem após o envio estão sujeitos às políticas,
+        configurações e termos do WhatsApp, da conta utilizada e do dispositivo do
+        destinatário.
+      </p>
+      <p>
+        O Robô Nice não transmite essas informações para servidores do desenvolvedor,
+        plataformas de publicidade, serviços de análise, corretores de dados ou outros
+        terceiros não envolvidos na operação solicitada.
+      </p>
+
+      <h2>6. Permissões da Extensão</h2>
+      <p>
+        A extensão solicita permissões necessárias para suas funcionalidades:
+      </p>
+      <ul>
+        <li>
+          <strong>activeTab e scripting:</strong> permitem executar as automações nas
+          páginas autorizadas do PROJUDI.
+        </li>
+        <li>
+          <strong>tabs:</strong> permite localizar, abrir, ativar e fechar as abas
+          utilizadas pela operação.
+        </li>
+        <li>
+          <strong>sidePanel:</strong> permite exibir a interface do Robô Nice na
+          lateral do navegador.
+        </li>
+        <li>
+          <strong>storage:</strong> permite armazenar localmente as configurações,
+          regras e preferências do usuário.
+        </li>
+        <li>
+          <strong>webNavigation:</strong> permite identificar com segurança os frames
+          das páginas do PROJUDI em que a automação deve ser executada.
+        </li>
+        <li>
+          <strong>Acesso aos endereços do PROJUDI:</strong> permite executar as
+          operações processuais solicitadas.
+        </li>
+        <li>
+          <strong>Acesso a https://web.whatsapp.com/*:</strong> permite preparar e
+          realizar o envio solicitado pelo usuário no WhatsApp Web.
+        </li>
+        <li>
+          <strong><code>&lt;all_urls&gt;</code>:</strong> é utilizado exclusivamente
+          para atender ao requisito técnico da API <code>captureVisibleTab</code> do
+          Chrome, empregada no print opcional de comprovação. Antes de capturar, a
+          extensão ativa a aba esperada e confirma que ela pertence ao domínio
+          <code>web.whatsapp.com</code>.
+        </li>
+      </ul>
+      <p>
+        A permissão <code>&lt;all_urls&gt;</code> não é utilizada para capturar outras
+        páginas, monitorar a navegação do usuário ou coletar seu histórico.
+      </p>
+
+      <h2>7. Controle e Responsabilidade do Usuário</h2>
+      <p>
+        A opção de print de comprovação permanece desativada por padrão. Na primeira
+        operação em que ela estiver ativada, o Robô Nice exibirá um aviso informando
+        que a imagem pode conter dados processuais, pessoais e elementos visíveis da
+        conversa.
+      </p>
+      <p>
+        O usuário é responsável por utilizar contas próprias ou devidamente autorizadas
+        no PROJUDI e no WhatsApp Web, conferir o destinatário e proteger os documentos,
+        relatórios e imagens salvos no computador.
+      </p>
+      <p>
+        O Robô Nice não solicita senhas e não armazena credenciais de acesso. As
+        operações dependem das sessões autenticadas mantidas pelo próprio navegador.
+      </p>
+
+      <h2>8. Segurança e Uso Limitado</h2>
+      <p>
+        As comunicações com o PROJUDI e o WhatsApp Web são realizadas por conexões
+        HTTPS. As configurações locais ficam protegidas pelas medidas de segurança do
+        navegador, do perfil do Chrome e do sistema operacional do usuário.
+      </p>
+      <p>
+        O uso das informações obtidas por meio das permissões e APIs do Chrome está em
+        conformidade com a Política de Dados do Usuário da Chrome Web Store, incluindo
+        os requisitos de Uso Limitado. Essas informações não são utilizadas para
+        publicidade personalizada, análise comportamental, concessão de crédito ou
+        comercialização de dados.
+      </p>
+
+      <h2>9. Alterações nesta Política</h2>
+      <p>
+        Esta política poderá ser atualizada quando forem adicionadas ou modificadas
+        funcionalidades da extensão. A data da última atualização será informada no
+        início desta página.
+      </p>
+
+      <h2>10. Contato</h2>
+      <p>
+        Em caso de dúvidas sobre esta Política de Privacidade, entre em contato pelo
+        e-mail:
+        <strong><a href="mailto:daloski@gmail.com">daloski@gmail.com</a></strong>.
+      </p>
     </div>
+  </div>
 </body>
 </html>
